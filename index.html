@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layout</title>
+    <link rel="stylesheet" href="tugasprak8_js.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="left-column">
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama">
+                        </div>
+                        <div class="form-group">
+                            <label for="marga">Marga</label>
+                            <input type="text" id="marga" name="marga">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nik">NIK</label>
+                        <input type="text" id="nik" name="nik">
+                    </div>
+                    <div class="form-group">
+                        <label for="jenis-kelamin">Jenis Kelamin</label>
+                        <select id="jenis-kelamin" name="jenis-kelamin">
+                            <option value="" disabled selected>Pilih Jenis Kelamin</option>
+                            <option value="laki-laki">Laki-laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="ttl">TTL</label>
+                        <input type="date" id="ttl" name="ttl">
+                    </div>
+                    <div class="form-group">
+                        <label for="jurusan">Jurusan Dipilih</label>
+                        <select id="jurusan" name="jurusan">
+                            <option value="pilih jurusan" disabled selected>Pilih Jurusan</option>
+                            <option value="jurusan1">D3 Manajemen Informatika</option>
+                            <option value="jurusan2">D3 Teknik Sipil</option>
+                            <option value="jurusan3">D4 teknik Sipil</option>
+                            <option value="jurusan4">D3 Agro Industri</option>
+                            <option value="jurusan5">D3 Teknik Mesin</option>
+                            <option value="jurusan6">D3 Teknik Listri</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="form-group">
+                        <label for="alamat">Alamat</label>
+                        <textarea id="alamat" name="alamat"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Hobi</label>
+                        <div class="checkbox-group">
+                            <div>
+                                <input type="checkbox" id="hobi1" name="hobi" value="sepak bola">
+                                <label for="hobi1">Sepak Bola</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hobi2" name="hobi" value="baca komik">
+                                <label for="hobi2">Baca Komik</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hobi3" name="hobi" value="voli">
+                                <label for="hobi3">Voli</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hobi4" name="hobi" value="streaming video">
+                                <label for="hobi4">Streaming Video</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hobi5" name="hobi" value="bulu tangkis">
+                                <label for="hobi5">Bulu Tangkis</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asal-sekolah">Asal Sekolah</label>
+                        <input type="text" id="asal-sekolah" name="asal-sekolah">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
